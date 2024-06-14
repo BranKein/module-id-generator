@@ -1,4 +1,4 @@
-package me.yeonhyuk.mp_id_generator.snowflake;
+package com.github.BranKein.mp_id_generator.snowflake;
 
 import java.util.HashMap;
 

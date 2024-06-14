@@ -1,6 +1,6 @@
-package me.yeonhyuk.mp_id_generator.snowflake;
+package com.github.BranKein.mp_id_generator.snowflake;
 
-import me.yeonhyuk.mp_id_generator.IDGeneratorAbstract;
+import com.github.BranKein.mp_id_generator.IDGeneratorAbstract;
 
 public class SnowFlakeGenerator extends IDGeneratorAbstract<Long> {
     private final Long machineId;

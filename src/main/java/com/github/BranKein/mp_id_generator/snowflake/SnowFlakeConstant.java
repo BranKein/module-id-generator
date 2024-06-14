@@ -1,4 +1,4 @@
-package me.yeonhyuk.mp_id_generator.snowflake;
+package com.github.BranKein.mp_id_generator.snowflake;
 
 class SnowFlakeConstant {
     public final static long START_STAMP = 1707828242000L;
