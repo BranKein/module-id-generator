@@ -1,5 +1,9 @@
+//apply plugin: 'java'
+//apply plugin: 'maven'
+
 plugins {
     id("java")
+    id('maven-publish')
 }
 
 group = "me.yeonhyuk"
@@ -16,4 +20,17 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId = 'mp-id-generator'
+        }
+    }
+    repositories {
+        maven {
+            url = 'https://jitpack.io'
+        }
+    }
 }
