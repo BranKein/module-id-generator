@@ -32,9 +32,14 @@ tasks.test {
 
 publishing {
     publications {
-        mavenJava(MavenPublication) {
+        release(MavenPublication) {
+            groupId = 'com.github.BranKein'
             artifactId = 'jitpack-practice'
+            version = '0.4'
         }
+//        mavenJava(MavenPublication) {
+//            artifactId = 'jitpack-practice'
+//        }
     }
     repositories {
         maven {
