@@ -31,8 +31,8 @@ publishing {
             from components.java
 
             groupId = 'com.github.BranKein'
-            artifactId = 'jitpack-practice'
-            version = '0.4'
+            artifactId = 'module-id-generator'
+            version = '1.0'
         }
     }
     repositories {
