@@ -1,4 +1,4 @@
-package com.github.BranKein.mp_id_generator;
+package me.yeonhyuk.mp_id_generator;
 
 public interface IDGenerator<T> {
     T generateId(Object... args);

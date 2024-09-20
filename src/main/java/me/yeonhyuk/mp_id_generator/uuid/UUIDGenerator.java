@@ -1,6 +1,6 @@
-package com.github.BranKein.mp_id_generator.uuid;
+package me.yeonhyuk.mp_id_generator.uuid;
 
-import com.github.BranKein.mp_id_generator.IDGeneratorAbstract;
+import me.yeonhyuk.mp_id_generator.IDGeneratorAbstract;
 
 import java.util.UUID;
 

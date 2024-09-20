@@ -1,4 +1,4 @@
-package com.github.BranKein.mp_id_generator;
+package me.yeonhyuk.mp_id_generator;
 
 public abstract class IDGeneratorAbstract<T> implements IDGenerator<T> {
     public T generateId(Object... args) {

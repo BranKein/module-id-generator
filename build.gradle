@@ -6,7 +6,7 @@ plugins {
     id('maven-publish')
 }
 
-group = "com.github.BranKein"
+group = "me.yeonhyuk"
 
 repositories {
     mavenCentral()
